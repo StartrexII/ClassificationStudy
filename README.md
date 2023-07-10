@@ -31,6 +31,8 @@ Some bank has asked you for help: they want to develop a loyalty campaign to ret
 * [ML-3.Practice.Classification.ipynb](./ML-3.Practice.Classification.ipynb) - jupyter-notebook containing the main project code, data processing and algorithm training
 * [requirements.txt](./requirements.txt) - a file with the versions of the modules used, for reproducibility of the code
 
+:arrow_up:[To the table of contents](#table-of-contents)
+
 ## Data description
  The dataset contains various information about the bank's customers, including the status - whether he is a customer, or has already stopped using the bank's services(**target**) 
 
@@ -50,6 +52,8 @@ Some bank has asked you for help: they want to develop a loyalty campaign to ret
 * **EstimatedSalary** — estimated salary of the client;
 * **Exited** — the status of the departed (1 is a departed client, 0 is a loyal client).
 
+:arrow_up:[To the table of contents](#table-of-contents)
+
 ## Libraries
 * Python (3.11.1):
     * [pandas (2.0.1)](https://pandas.pydata.org)
@@ -60,6 +64,7 @@ Some bank has asked you for help: they want to develop a loyalty campaign to ret
     * [Category Encoders (2.6.0)](http://contrib.scikit-learn.org/category_encoders/)
     * [scikit-learn (1.2.2)](https://scikit-learn.org/stable/)
 
+:arrow_up:[To the table of contents](#table-of-contents)
 
 ## Project Installation
 
@@ -67,17 +72,25 @@ Some bank has asked you for help: they want to develop a loyalty campaign to ret
     git clone https://github.com/StartrexII/DataScienceProjects
 ```
 
-                             
+:arrow_up:[To the table of contents](#table-of-contents)                        
 
 ## Using
 Information about the relationships between categorical features is presented in the jupyter-notebook [dataResearch.ipynb](./dataResearch.ipynb).
 All other information, including the distribution of numerical features, is presented in the jupyter-notebook [ML-3.Practice.Classification.ipynb](./ML-3.Practice.Classification.ipynb).
 If the graphs are not displayed on GitHub, you can open them in the browser, they are in the folder [`plotly/`](./plotly)
 
+:arrow_up:[To the table of contents](#table-of-contents)
+
 ## Authors
 
 * [Егор Орлов](https://vk.com/liquidlogic)
 
+:arrow_up:[To the table of contents](#table-of-contents)
+
 ## Conclusions
 
 As a result, it was possible to achieve the value of F1-measure 0.68, while trying to use logistic regression, improving it by selecting regularization parameters, adding polynomial features of degree 3, as well as selecting the probability threshold of the object's relation to a certain class. The algorithms of decision trees turned out to be the most effective, while a random forest performed better in the training selection, and its results were comparable to the results of the decision tree in the test sample. At the same time, after selecting the decision-making threshold, the final metric (F1-measure) improved, but it is worth noting that a random forest during selection, in which an optimal balance between completeness and accuracy of the algorithm is achieved, shows a much better metric compared to the decision tree (0.68 - random forest, 0.64 - decision tree).
+
+:arrow_up:[To the table of contents](#table-of-contents)
+
+If the information on this project seems interesting or useful to you, then I will be very grateful to you if you mark the repository and profile with ⭐️⭐️⭐️:)
