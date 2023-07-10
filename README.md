@@ -11,6 +11,7 @@
 
 ## Project Description
 
+
 Some bank has asked you for help: they want to develop a loyalty campaign to retain customers. To do this, he needs to predict the probability of customer outflow and determine whether the customer will leave in the near future.
 
 **Problem** - to build a classifier that will allow timely identification of outgoing bank customers.
