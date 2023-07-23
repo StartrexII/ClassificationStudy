@@ -25,7 +25,7 @@ Some bank has asked you for help: they want to develop a loyalty campaign to ret
 * building decision tree and random forest models and determining optimal model parameters
 * choosing the best algorithm
 
-**О структуре проекта:**
+**Project structure:**
 * [data](./data) - the folder with the original tabular data
 * [plotly](./plotly) - a folder with charts for viewing them in the browser
 * [dataResearch.ipynb](./dataResearch.ipynb) - jupyter-notebook containing an analysis of categorical features
